@@ -1,0 +1,8 @@
+#create tuple
+tuple=('Physics','Chemistry','Maths',10,20,30)
+print(tuple)
+print(type(tuple))
+
+#tuple declaration using "tuple"
+tuple5=tuple((1,5,3,12))
+print(tuple5)
