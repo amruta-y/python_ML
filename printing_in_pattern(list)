@@ -1,0 +1,13 @@
+emp=["jhon",102,"USA"]
+dep1=["CS",10]
+dep2=["IT",11]
+hod=[10,"Mr.Holding"]
+hod1=[11,"Mr.Bewon"]
+print("Name:{0} ID:{1} Country:{2}".format(emp[0],emp[1],emp[2]))
+print("Department 1:")
+print("Name: ",dep1[0],",ID:",dep1[1])
+print("Department 2:")
+print("Name: ",dep2[0],",ID:",dep2[1])
+print("\nCS HOD name:",hod[1],",ID:",hod[0])
+print("\nIT HOD name:",hod1[1],",ID:",hod1[0])
+print("{0} {1} {2} {3} {4} ".format(type(emp),type(dep1),type(dep2),type(hod),type(hod1)))
