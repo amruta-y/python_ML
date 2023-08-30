@@ -1,0 +1,18 @@
+#add two numbers
+a=12
+b=15
+sum=a+b
+print(sum)
+print("sum")
+
+#to get the class of the data types
+x=309 #x is of type int
+y="Amruta"
+print(x)
+print(y)
+type(x)
+type(y)
+
+#get the input from user
+x=input("What is your name?")
+print(x)
