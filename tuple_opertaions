@@ -1,0 +1,32 @@
+#adding two tuples
+x=("happy","hippy",23)
+print(type(x))
+y=("jay",'jeps','dfs')
+z=x+y
+print(z)
+
+#scaling the tuple
+tuple7=tuple5*3
+print(tuple7)
+
+#tuple indexing
+y=tuple6.index(1)
+print(y)
+z=tuple6.count(1)
+print(z)
+
+#Minimum and Maximum ina tuple
+tuple1=(1,5,6,9)
+a=min(tuple1)
+b=max(tuple1)
+print("MINIMUM:",a)
+print("MAXIMUM:",b)
+
+
+#tuple to list and list to tuple
+x=("hubli","belgaum","blore")
+print(x)
+y=list(x)
+y[2]="mumbaai"
+x=tuple(y)
+print(x)
