@@ -1,0 +1,58 @@
+set={"Red","Blue","Black","Blue"}
+print(set)
+
+#adding element
+set.add("orange")
+print(set)
+
+#adding two sets
+set1={"Pink","Purple","Grey"}
+set.update(set1)
+print(set)
+
+#intersection function
+set2={"a","b","c"}
+z=set.intersection(set2)
+print(z)
+
+#clear
+set={"Red","Blue","Black","Blue"}
+print(set)
+set.clear()
+print(set)
+
+#copy
+x=set.copy()
+print(x)
+
+#difference
+set1={1,2,3,4,5}
+set2={6,5,4,2,9}
+z=set1.difference(set2)
+print(z)
+
+#discard
+set1.discard(4)
+print(set1)
+
+#intersection
+z=set1.intersection(set2)
+print(z)
+
+#union
+z=set1.union(set2)
+print(z)
+
+#disjoint
+set1 = {2, 4, 5, 6}
+set2 = {7, 8, 9, 10}
+set3 = {1, 2}
+
+# checking of disjoint of two sets
+print("set1 and set2 are disjoint?",
+	set1.isdisjoint(set2))
+
+print("set1 and set3 are disjoint?",
+	set1.isdisjoint(set3))
+
+
