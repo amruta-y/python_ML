@@ -1,0 +1,9 @@
+list=[]
+n=1
+while(n<=5):
+  a=input("Enter no:")
+  list.append(a)
+  n=n+1
+
+print("List is: ",list)
+print(list.clear()) #clears the entire list
