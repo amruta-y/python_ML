@@ -1,0 +1,39 @@
+#add an elemnt to list using append()
+num=[21,34,45,67,78]
+print("Before append: ",num)
+num.append(89)
+print("After append: ",num)
+
+#insertion
+list=[10,30,40]
+list.insert(1,20)   #insert an element at index 1
+c=len(list)
+print(list)
+print("Lenght of the list: ",c)
+del list[2]#delete the element present at the index 2
+print("List after deletion: ",list)
+
+
+#adding two list using extend()
+num=[21,34,45,67,78]
+num1=[12,43,54,76,87]
+#add num1 to num
+num.extend(num1)
+print("List after append: ",num)
+
+#sort the list
+list=['Jaypriya','Shreya','Amruta','Akash','Ganu','Prateek']
+list.sort(reverse=False)
+print(list)
+
+
+#resvers the list
+list=['Jaypriya','Shreya','Amruta','Akash','Ganu','Prateek']
+list.reverse()
+print(list)
+
+#pop the last elemnt in a list
+list=['Jaypriya','Shreya','Amruta','Akash','Ganu','Prateek']
+list.pop()
+print(list)
+
