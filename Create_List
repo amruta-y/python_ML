@@ -1,0 +1,6 @@
+#create list
+list=['apple','banana','cherry']
+print("list is ",list)
+
+#create empty list
+list1=[]
