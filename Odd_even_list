@@ -1,0 +1,12 @@
+
+list_e=[]
+list_o=[]
+n=int(input("Enter the count of numbers:"))
+for i in range(1,n):
+  a=int(input("Enter the number:"))
+  if (a%2==0):
+    list_e.append(a)
+  else:
+    list_o.append(a)
+print("Even list:",list_e)
+print("Odd list:",list_o)
