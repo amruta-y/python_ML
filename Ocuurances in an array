@@ -1,0 +1,5 @@
+#number of occurences of a specific number in an array
+tuplex=(1,2,4,2,2,3,4,77,45,1)
+a=int(input("Enter the no."))
+x=tuplex.count(a)
+print(x)
