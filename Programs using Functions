@@ -1,0 +1,168 @@
+#Write a program to print first n natural numbers using functions
+def natural(n):
+  for i in range(1,n+1):
+    print(i)
+
+n=int(input("Enter the number:"))
+natural(n)
+
+#Write a program to print Fibonacci series using functions
+def fib_series(n):
+    x=0
+    y=1
+    print(x)
+    print(y)
+    for i in range(1,n+1):
+     z=x+y
+     x=y
+     y=z
+     print(z)
+n=int(input("Enter the number:"))
+fib_series(n)
+
+
+#Write a program to find a factorial of first 10 odd numbers using functions
+def fact_odd(n):
+  for j in range(0,n):
+   fact=1
+   i=j*2+1
+   while(i!=1):
+    fact=fact*i
+    i-=1
+   print(fact)
+
+n=int(input("Enter the number:"))
+fact_odd(n)
+
+#Write a program to print first 10 odd numbers
+def odd(int):
+    for i in range(n):
+        if(i%2!=0):
+            print(i)
+
+n=int(input("enter the number"))
+odd(n)
+
+#Write a program to print  first 10 even numbers in reverse order using functions
+def reverse_even(n):
+   list1=[]
+   for i in range(1,n+1):
+    i=i*2
+    list1.append(i)
+   list1.sort(reverse=True)
+   return (list1)
+
+
+n=int(input("Enter the number:"))
+list2=reverse_even(n)
+print(list2)
+
+
+#Write a program to separate odd numbers and even numbers from a given array using functions
+def even_odd(n):
+  list_e=[]
+  list_o=[]
+  for i in range(1,n+1):
+    a=int(input("Enter the number:"))
+    if (a%2==0):
+      list_e.append(a)
+    else:
+      list_o.append(a)
+  print("Even list:",list_e)
+  print("Odd list:",list_o)
+n=int(input("Enter the count of numbers:"))
+even_odd(n)
+
+#accept 10 numbers from user and display their averages
+def avarage():
+   print("Enter the 10 numbers of your choice:")
+   sum=0
+   for i in range(1,11):
+     a=int(input("Enter the number:"))
+     sum+=a
+   avg=sum/10
+   return avg
+
+a=avarage()
+print("Average:",a)
+
+#palindrome or not
+def palin():
+  txt=input("Enter the string:")
+  txt2 =txt
+  txt1 = txt [::-1]
+  if(txt1==txt2):
+    print("Palindrome")
+  else:
+    print("Not a palindrome")
+
+palin()
+
+#printing pattern using "*"
+def pattern():
+  r=int(input("Enter the number of rows"))
+  a="*"
+  if r==4:
+   for i in range(1,r+1):
+     print(a*i)
+
+pattern()
+
+
+#prime or not prime
+def prime(num):
+   if num > 1:
+    is_prime = True
+    for i in range(2, num):
+        if num % i == 0:
+            is_prime = False
+            break
+        else:
+          is_prime = False
+
+
+   if is_prime:
+    print(num, "is a prime number.")
+   else:
+    print(num, "is not a prime number.")
+    if(num%3==0):
+      print(num,"is divisible by 3")
+    if(num%5==0):
+      print(num,"is divisible by 5")
+    if(num%7==0):
+      print(num,"is divisible by 7")
+    if(num%9==0):
+      print(num,"is divisible by 9")
+    if(num%11==0):
+      print(num,"is divisible by 11")
+
+num = int(input("Enter a number: "))
+prime(num)
+
+
+#divisible by 11 but not divisible by 2
+def div():
+   for i in range(100,500):
+     if(i%11==0 and i%2!=0):
+       print(i)
+
+div()
+
+
+#Write a program to arrange numbers in half ascending and half descending order using functions
+def halfascending_halfdecending(list):
+    lis2=[] #ascending
+    lis3=[] #decending
+    a=len(lis1)//2
+    for i in range(a):
+        lis2.append(lis1[i])
+    print(lis2)
+    for j in range(a,len(lis1)):
+        lis3.append(lis1[j])
+    lis2.sort(reverse=False)
+    print(lis2)
+    lis3.sort(reverse=True)
+    print(lis3)
+    
+lis1=[1,2,3,4,5,6,9,8,11]
+halfascending_halfdecending(lis1)
