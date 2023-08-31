@@ -1,0 +1,9 @@
+#factorial of first n odd number
+n=int(input("Enter the number:"))
+for j in range(0,n):
+   fact=1
+   i=j*2+1
+   while(i!=1):
+    fact=fact*i
+    i-=1
+   print(fact)
