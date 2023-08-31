@@ -1,0 +1,7 @@
+#check the equality of two arrays
+tuple1=('Amruta','shreya','JP',309,320,320)
+tuple2=(315,316,309,320,320)
+if tuple1==tuple2:
+   print("Arrays are equal")
+else:
+   print("Arrays are not equal")
