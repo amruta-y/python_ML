@@ -1,0 +1,11 @@
+#declaration of dictionaries
+dict1={"Name":"Amruta",
+       "Age":"21",
+       "Gender":"Female"}
+print(dict1)
+
+
+#another way of declaring dictionaries
+thisdict = dict(name = "John", age = 36, country = "Norway")
+print(thisdict)
+print(type(thisdict))
