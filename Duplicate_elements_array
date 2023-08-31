@@ -1,0 +1,5 @@
+tuplex=(2,3,4,5,7,2,2,7)
+tupley=tuplex
+z=set(tuplex)
+tuplex=tuple(z)
+print(tuplex!= tupley)
