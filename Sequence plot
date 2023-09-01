@@ -1,0 +1,16 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+
+data=pd.read_csv("dataF.txt",header=None)
+
+data
+
+plt.scatter(data[0],data[1])
+
+x=np.linspace(0,20,2)
+m=19
+c=10
+y=m*x+c
+plt.plot(x,y)
+plt.show
