@@ -1,0 +1,13 @@
+#HUmpty_Dumpty
+def Humpty_Dumpty(n):
+    if(n%3==0 and n%5==0):
+        return "HUmpty Dumpty"
+    elif(n%3==0):
+        return "HUmpty"
+    elif(n%5==0):
+        return "Dumpty"
+    
+    
+n=int(input("Enter the number:"))
+str=Humpty_Dumpty(n)
+print(str)
